@@ -1,0 +1,16 @@
+export { default as Main } from "./Main";
+export { default as Like } from "./Like";
+export { default as My } from "./My";
+export { default as Login } from "./Login";
+export { default as Register } from "./Register";
+export { default as Detail } from "./Detail";
+export { default as New } from "./New";
+export { default as Profile } from "./Profile";
+export { default as Music } from "./Music";
+export { default as Music2 } from "./Music2";
+export { default as Music3 } from "./Music3";
+export { default as Dance } from "./Dance";
+export { default as Dance2 } from "./Dance2";
+export { default as FAQ } from "./FAQ";
+export { default as Record } from "./Record";
+export { default as Video } from "./Video";

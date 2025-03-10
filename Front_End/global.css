@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=NanumSquareRound:wght@300;400;700;800&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-nanumsquareround: NanumSquareRound;
+
+  /* font sizes */
+  --font-size-sm: 20px;
+  --font-size-base: 25px;
+  --font-size-lg: 30px;
+  --font-size-xl: 35px;
+  --font-size-2xl: 40px;
+  --font-size-3xl: 45px;
+  --font-size-4xl: 50px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-red: #ff6a26;
+  --color-orange: #ffb54a;
+  --color-beige-100: #f9eadc;
+  --color-beige-200: #ffe1cc;
+  --color-gray-100: #d9d9d9;
+  --color-gray-200: #666;
+  --color-gray-300: #646464;
+  --color-gray-400: #393434;
+
+  /* border radiuses */
+  --br-sm: 10px;
+  --br-md: 45px;
+  --br-lg: 50px;
+}

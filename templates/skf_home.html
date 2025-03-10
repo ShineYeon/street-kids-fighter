@@ -1,0 +1,152 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}home.html{% endblock %}
+
+{% block extra-style %}
+{{ block.super }}
+<style>
+    .my-img-h300 {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .my-post-title {
+        height: 60px;
+    }
+    .my-link:hover {
+        cursor: pointer;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<!-- Blog Grid-->
+<section class="page-section bg-light" id="portfolio">
+    <div class="container">
+        <div class="text-center">
+            <div class="section-heading">
+                <span class="h2 text-uppercase">Main Menu</span>&nbsp;
+            </div>
+            <h3 class="section-subheading text-muted">어떤 것을 해볼까요?</h3>
+        </div>
+        <div class="row">
+            <div class="portfolio-item">
+                <a class="portfolio-link" href="{% url 'dance:dance' %}">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"></div>
+                    </div>
+                    <img class="img-fluid my-img-h300" src="static\assets\img\btn_dance.png" alt="..." />
+                </a>
+                <div class="portfolio-caption">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <a class="portfolio-link" href="#">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"></div>
+                    </div>
+                    <img class="img-fluid my-img-h300" src="static\assets\img\btn_remember.png" alt="..." />
+                </a>
+                <div class="portfolio-caption">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <a class="portfolio-link" href="#">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"></div>
+                    </div>
+                    <img class="img-fluid my-img-h300" src="static\assets\img\btn_qna.png" alt="..." />
+                </a>
+                <div class="portfolio-caption">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Iam -->
+<section class="page-section bg-light" id="team">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Members</h2>
+            <h3 class="section-subheading text-muted">5조<일로 만난 사이> 팀원들을 소개합니다.</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="{% static 'assets/img/team/3.jpg' %}" alt="..." />
+                    <h4>Creative Company</h4>
+                    <p class="text-muted">Python Web Programmer</p>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="mb-5">
+                    <h4>정해민</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="mb-5">
+                    <h4>최희연</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="mb-5">
+                    <h4>박치언</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="mb-5">
+                    <h4>박지훈</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="mb-5">
+                    <h4>정준호</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="mb-5">
+                    <h4>손지웅</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block footer %}
+<!-- Footer-->
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start">
+                Copyright &copy; Your Website [[ currentYear ]]
+                <!-- This script automatically adds the current year to your website footer-->
+                <!-- (credit: https://updateyourfooter.com/)-->
+                <!-- <script>
+                    document.write(new Date().getFullYear());
+                </script> -->
+            </div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
+{% block extra-script %}
+    {% include 'include/post_list_vue.html' %}
+{% endblock %}

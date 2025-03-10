@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=NanumSquareRound:wght@300;400;700;800&display=swap");
+
+.banner1Icon,
+.rectangleDiv {
+  position: absolute;
+  left: 0px;
+  width: 1550px;
+}
+.banner1Icon {
+  top: 128px;
+  height: 1030px;
+  object-fit: cover;
+}
+.rectangleDiv {
+  top: 0px;
+  background-color: black;
+  height: 140px;
+}
+.skfLogo21Icon {
+  position: absolute;
+  top: 285px;
+  left: 525px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+.div1 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+  letter-spacing: -0.06em;
+  font-weight: 800;
+  color: #ff6a26;
+  display: inline-block;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  width: 176px;
+  height: 70px;
+}
+.div2 {
+  font-weight: 1000;
+  display: inline-block;
+}
+.div3,
+.groupDiv {
+  position: absolute;
+}
+.groupDiv {
+  top: 33px;
+  left: 1184px;
+  width: 176px;
+  height: 70px;
+}
+.div3 {
+  top: 18px;
+  left: 33px;
+  font-weight: 800;
+  display: inline-block;
+}
+.groupDiv1 {
+  position: absolute;
+  top: 33px;
+  left: 983px;
+  width: 176px;
+  height: 70px;
+}
+.div4 {
+  position: absolute;
+  top: 588px;
+  left: 500px;
+  font-weight: 800;
+  color: var(--color-black);
+  display: inline-block;
+}
+.div {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: NanumSquareRound;
+}
+@font-face {
+  font-family: 'NanumSquareRound';
+  font-weight: 700; 
+  font-style: normal; 
+  src: url(https://cdn.jsdelivr.net/gh/webfontworld/naver/NanumSquareRoundEB.woff2) format('woff2');
+  font-display: swap;
+}
+.height{
+  height: 550px;
+}
+
+.login_1{
+  z-index: 1!important;
+}
+.register_1{
+  z-index: 1!important;
+}
+
+.border{
+  border: 1px solid#8e8e8e;
+}
+.border1{
+  border-radius: 1rem;
+}
+
+
+.div-white{
+  z-index: 1!important;
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 1030px;
+}
+
+.border2{
+  border-radius: 1rem;
+  top: 100px;
+  position: relative;
+}
+
+.title1{
+  color: black;
+  /* display: block; */
+  font-size: 2.5rem;
+  font-weight: 800;
+  justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content1{
+  color: black;
+  /* display: block; */
+  font-size: 1.5rem;
+  font-weight: 500;
+  justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.rectangleDiv1 {
+  cursor: pointer;
+  position: absolute;
+  top: 340px;
+  left: 227px;
+  border-radius: 45px;
+  background-color: #60bfb2;
+  width: 370px;
+  height: 370px;
+}
+.rectangleDiv2,
+.rectangleIcon1 {
+  position: absolute;
+  left: 655px;
+  border-radius: 10px;
+  width: 662px;
+  height: 109px;
+}
+.rectangleDiv2 {
+  top: 40px;
+  background-color: #d9d9d9;
+}
+
+.vectorIcon {
+  cursor: pointer;
+  position: absolute;
+  top: 451.5px;
+  left: 340.5px;
+  width: 144px;
+  height: 147px;
+}
+
+.input1{
+  border-color: transparent;
+  border-radius: 8px;
+  color: #363636;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 3rem;
+  height: 2.5em;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: calc(0.5em - 2px);
+  padding-left: calc(0.75em - 2px);
+  padding-right: calc(0.75em - 2px);
+  padding-top: calc(0.5em - 2px);
+  position: relative;
+  vertical-align: top;
+}
+
+.rectangleDiv3{
+  position: absolute;
+  left: 655px;
+  border-radius: 10px;
+  width: 662px;
+  height: 109px;
+  font-size: 3rem;
+  background-color:#ff6a26;
+  top: 600px;
+  color: white;
+  border-color: #dbdbdb;
+  cursor: pointer;
+  justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.rectangleDiv11 {
+  position: absolute;
+  top: 190px;
+  left: 120px;
+  border-radius: 45px;
+  background-color: #ffe1cc;
+  width: 1280px;
+  height: 579px;
+}
+.pi {
+  max-width: 100%;
+}
+
+.b {
+  position: absolute;
+  top: 550px;
+  left: 274px;
+  display: inline-block;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.div-beige{
+  z-index: 1!important;
+  position: relative;
+  background-color: #f9eadc;
+  width: 100%;
+  height: 1030px;
+}
+
+.danceDiv {
+  position: absolute;
+  top: 230px;
+  left: 80px;
+  background-color: #ffb54a;
+  width: 300px;
+  height: 180px;
+  cursor: pointer;
+}
+
+.danceDiv1 {
+  position: absolute;
+  top: 230px;
+  left: 430px;
+  background-color: #ffb54a;
+  width: 300px;
+  height: 180px;
+  cursor: pointer;
+}
+
+.dancetitle{
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: black
+}
+
+.video_1{
+  position: absolute;
+  z-index: 1!important;
+  left: 250px;
+  top: 190px;
+  width: 1024px;
+  height: 600px;
+}
+
+
+.b1 {
+  position: absolute;
+  top: 250px;
+  left: 274px;
+  display: inline-block;
+  text-align: center;
+  font-size: 3rem;
+}
+.rectangleDiv12{
+  position: absolute;
+  left: 430px;
+  border-radius: 10px;
+  width: 662px;
+  height: 109px;
+  font-size: 3rem;
+  background-color:#ff6a26;
+  top: 600px;
+  color: white;
+  border-color: #dbdbdb;
+  cursor: pointer;
+  justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-brand1 {
+  align-items: stretch;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  min-height: 8rem;
+}
+
+.div11 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+  letter-spacing: -0.06em;
+  font-weight: 800;
+  color: #ff6a26;
+  display: inline-block;
+}
